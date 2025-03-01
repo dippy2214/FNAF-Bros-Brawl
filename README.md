@@ -22,4 +22,4 @@ Learning a new game engine in skateboard engine was a very unique challenge for 
 this point - especially as skateboard was still under development as we were doing this project. We made sure to report bugs to
 the team working on the engine when any came up, and in some cases editted parts of the backend outselves to make some basic 
 fixes. I feel like this aspect of development almost taught me the most from this whole proect, as adapting to new in house 
-piece of software was a very unique learning experience for me
+piece of software was a very unique learning experience for me.
