@@ -109,4 +109,26 @@ button system and the main and pause menus. The issue actually turned out to be 
 represented the current scene, although this took me quite a while to debug as I had to understand what was happening within the engines
 codebase.
 
+### 🎨 The Finishing Touches
+At this stage in the project, we were successfully bringing the game together. We had merged the branches a few more times, and had updated
+versions of most parts of our games. Generally we were all making good time in development, besides some production issues with Logan's attack
+system ballooning in scope and becoming larger than it needed to be, but this problem had been identified and the group was addressing it. 
+
+It just needed some finishing touches.
+
+My job at this stage became adding in some audio. Skateboard would manage the audio channels on the playstation for us, as by this stage the 
+engine had benefitted from continous development throughout the term and had become much nicer to work in. Running with the themes of the game,
+I decided to have some fun here, and found some copyright free meme songs made by user DirectDoggo, create of a popular five nights at freddys
+fan game series 'Dayshift at Freddys'. Sound effects were simple copyright free effects played on certain actions, and for the background music
+I decided to make a mini radio system to manage changing the song when the last one finished playing, with a skip button and a randomised
+playlist whenever the user opened the game (which would be saved between scenes). The project was reaching its end stages, and with everything
+coming together nicely I had to break the news to the group that I would actually be unavailable for the last 3 days of the project, due to 
+family matters. I made sure to help merge my parts to the final product pre emptively, and with that my work on the project was done.
+
+### 🏁 Final Thoughts
+While I regret missing the play party, I found working on this project to be possibly the best ever first experience with a group project a
+student could ask for. My group mates were excellent to work with, and I really enjoyed the game we made. Skateboard was frustrating at first,
+but I came to quite enjoy working in it and it's little quirks. The final product we ended up with was (in my opinion) excellent, with no bugs
+that we could find. This project was used as an example piece by the university in future open days, and I think the whole team deserved it.
+
 
