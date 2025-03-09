@@ -69,5 +69,13 @@ Now it was time to start on the second important feature of the camera: moving a
 to keep all players in frame, but if it didn't move to center around the player characters then things would look and feel very strange 
 to players - especially if the two players are on the same side of the stage, as so often happens in a platform fighting game. 
 
-To tackle this, my immediate idea was to 
+To tackle this, my immediate idea was to average the max and min positions on the x and y axis that we gathered for the previous algorithm.
+This would find the center point between the furthest apart players, keeping the camera feeling natural and using data I already had.
+After implementing this solution however, I encountered an unexpected issue. My camera screen resizing code was completely broken. After
+commenting it out and testing only my code to move the focal point, I found it was working correctly, but there was a deeper issue. My
+code for resizing the screen had been written with the expectation that the focal point of the screen would always be (0,0). It was
+time to take a step back and do some refactoring
+
+### 🔧 Fixing Up Old Mistakes
+
 
