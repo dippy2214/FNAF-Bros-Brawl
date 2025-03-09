@@ -95,6 +95,14 @@ own functionality, so I made sure to come in early the next day and implement a 
 simple problem to solve, but I hope this paragraph can convery the panic I felt when I recieved a message shortly after leaving saying 
 that my teammates couldn't see where the players were, with no further context. Thanks, guys 🙂.
 
+### 🛣 Moving On
+I have a confession to make to you now, reader. I actually got quite attached to this camera system. I had spent the last few weeks getting
+really into the ins and outs of how it worked, and had a lot of fun working on the algorithms above. I wanted to keep working on it.
+Fortunately, Patrick was there to bring me back to reality. In the future this would actually be an interaction we had quite a bit, which
+caused a few disagreements between us (although admittedly he was often the one who was the most correct), but this was one of our first 
+times working together. As I started to drift into obsession, he calmly dragged me back to reality by reminding me that our group was not
+in fact making a camera, but a whole game.
 
+After this, I moved away from polishing my perfectly good camera, and 
 
 
