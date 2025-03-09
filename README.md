@@ -15,11 +15,11 @@ in management roles or working in teams. The most experienced in team coordinati
 before on some game jam projects. Me and Logan joined them for this project, being on friendly terms, and both of us had up to this
 point little experience making full games aside from a first year module (which admittedly left something to be desired). 
 
+### 🏃‍♂️ And So We're Off
 Quickly we realised that to play to our strengths as a team we would benefit from each taking some core system of the game and 
 working on it ourselves, with discussions over the minimal integration where required. Later in development, we would work more 
 closely together as we moved to smaller features than the core systems which required more integration and teamwork. 
 
-### 🏃‍♂️ And So We're Off
 I was given ownership of the camera system for the game - which had to dynamically resize to fit all players on the screen, work for 1-4 
 player characters, and not show space outside of the edge of the playable area. However, immediately and for for every single member of
 the group, the first major challenge of this project reared it's head: the skateboard engine.
@@ -33,7 +33,17 @@ that this taught me a lot about how the systems we were using worked on a lower 
 of the project was slow, as the time was spent understanding the basics of the engine through making small and simple things that would 
 not make the final build.
 
-### 
+Skateboard engine also utilizes an ECS, which at the time none of us had any experience with. Wrapping our heads around this required a
+heated (but not aggressive) discussion with the whole group and module leaders, which admittedly was quite enjoyable (although from the 
+outside it may have looked like we were falling out, this was absolutely not the case for all involved, and we made sure to have a follow
+up conversation afterwards to make sure we were all on the same page). This added to the learning time we all needed, but in the end we 
+found the ECS to be quite a useful system, and many of these concepts would be applied to later unity projects we made together.
+
+### 🪀 Getting Into The Swing Of Things
+After a while (roughly week 4 of the module) the team felt comfortable enough with the skateboard engine to make our project repo and 
+start development. I quickly set up my test scene with some objects with a 'PlayerDataComponent' component and 'Transform' component (as 
+agreed upon with the group, the way the camera would find player characters would be by searching the engine's registry for entitys with 
+these components).
 
 
 
