@@ -20,9 +20,9 @@ Quickly we realised that to play to our strengths as a team we would benefit fro
 working on it ourselves, with discussions over the minimal integration where required. Later in development, we would work more 
 closely together as we moved to smaller features than the core systems which required more integration and teamwork. 
 
-I was given ownership of the camera system for the game - which had to dynamically resize to fit all players on the screen, work for 1-4 
-player characters, and not show space outside of the edge of the playable area. However, immediately and for for every single member of
-the group, the first major challenge of this project reared it's head: the skateboard engine.
+I was given ownership of the camera system for the game to start with - which had to dynamically resize to fit all players on the 
+screen, work for 1-4 player characters, and not show space outside of the edge of the playable area. However, immediately and for
+every single member of the group, the first major challenge of this project reared it's head: the skateboard engine.
 
 For development on this project, and to target the PS5 as a platform, abertay had decided to roll out the skateboard engine, an in house
 custom made engine to be used as an educational tool. Unfortunately for us, we were the first year group to experience skateboard. At 
@@ -41,9 +41,11 @@ found the ECS to be quite a useful system, and many of these concepts would be a
 
 ### 🪀 Getting Into The Swing Of Things
 After a while (roughly week 4 of the module) the team felt comfortable enough with the skateboard engine to make our project repo and 
-start development. I quickly set up my test scene with some objects with a 'PlayerDataComponent' component and 'Transform' component (as 
-agreed upon with the group, the way the camera would find player characters would be by searching the engine's registry for entitys with 
-these components).
+start development. I quickly set up my test scene with some simple moving objects with a 'PlayerDataComponent' component and 'Transform' 
+component (as agreed upon with the group, the way the camera would find player characters would be by searching the engine's registry 
+for entitys with these components), and started designing the camera system. Of course, skateboard provided a simple camera framework 
+which I could use as a starting point, but this camera didn't have any more than the basic requirements (the ortho mode didn't even work
+when we were using the engine).
 
 
 
