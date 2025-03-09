@@ -103,6 +103,10 @@ caused a few disagreements between us (although admittedly he was often the one 
 times working together. As I started to drift into obsession, he calmly dragged me back to reality by reminding me that our group was not
 in fact making a camera, but a whole game.
 
-After this, I moved away from polishing my perfectly good camera, and 
+After this, I moved away from polishing my already perfectly good camera, and started working with Iris on our menus and basic user 
+functionality. This is the part of the process where I fixed the issue in the engine with scene transitions, while Iris was designing a 
+button system and the main and pause menus. The issue actually turned out to be a simple problem while reassigning a pointer which 
+represented the current scene, although this took me quite a while to debug as I had to understand what was happening within the engines
+codebase.
 
 
