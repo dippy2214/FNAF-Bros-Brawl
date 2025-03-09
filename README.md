@@ -47,12 +47,23 @@ for entitys with these components), and started designing the camera system. Of 
 which I could use as a starting point, but this camera didn't have any more than the basic requirements (the ortho mode didn't even work
 when we were using the engine).
 
-The first step for me was to handle the resizing of the frame. My initial idea to solve this was to implement an algorithm using pythagoras
-theorem to work out how far back to move the camera along the Z axis to keep everything in frame as desired. However, to do this I would
-need to know the edge of the screen on the plane that our team's 2D game was taking place from, which itself necessitated another algorithm.
+The first step for me was to handle the resizing of the frame. My initial idea to solve this was to capture the player position data by
+looping through the entitys with the desired components and storing the largest and smallest x and y values (since it is only the players 
+closest to the edge that I care about for the purposes of this algorithm), and then to implement an algorithm using pythagoras theorem 
+to work out how far back to move the camera along the Z axis to keep everything in frame as desired. However, to do this I would need to 
+know the edge of the screen on the plane that our team's 2D game was taking place from, since skateboard handled a 3D space, which itself 
+necessitated another algorithm.
 
 The key to my success in this came to be fully understanding how the basic camera I was given worked. I needed to calculate the frustrum 
 width and height on a specific plane, which itself became a math problem. I had access to the cameras distance backwards along the Z axis
 and the FOV of the camera. Using half the FOV and the Z value, we have an angle and a side in a right angle triangle, which is enough
-information to calculate the side we are looking for using the equation *half height = z * tan(half-FOV)*.
+information to calculate the side we are looking for using the equation *half height = z * tan(half-FOV)*. 
+
+With this, I could implement the original algorithm I envisioned, through use of interpolations. I made the quick decision to simply set 
+the camera to the desired position, but this led to me creating some buffer values to keep the players slightly more on screen (so that 
+they didn't hug the edge of the screen whenever the camera was zooming out) and defining limits on how far the camera would be willing to
+zoom out and, more importantly for our game's purposes, how far it would zoom in. But with that the feature was done.
+
+### 👟 Two Steps Forwards
+Now it was time to 
 
