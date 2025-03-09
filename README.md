@@ -81,3 +81,20 @@ After an embarrassingly long time, I realised I could simply normalise my min an
 coordinates. I still had plenty of fun issues though, such as forgetting to add default values and exploding the cameras position on 
 startup - an issue I only noticed when fixing a different issue caused by setting the camera's position exactly. Instead, the program 
 now lerped towards a target position, creating a much smoother movement.
+
+### 🌍 Meeting The Real World
+At this point in development, the team decided it was worth integrating what we currently had into one project which we could all build 
+off. We had all made decent progress in our own areas, and Iris was reading to start working on a wider variety of tasks required for 
+making the whole game rather than just core systems. As such, I now had real player characters to test with, curtesy of Patrick.
+
+And immediately it caused me some problems.
+
+What started happening was that now that the players could move freely, and were recieving knockback from Logan's attacking system, they 
+could move even faster than the camera could resize. A painful oversight, and one that would affect everyone elses ability to debug their
+own functionality, so I made sure to come in early the next day and implement a fix. Fortunately, as you may have guessed, this was a
+simple problem to solve, but I hope this paragraph can convery the panic I felt when I recieved a message shortly after leaving saying 
+that my teammates couldn't see where the players were, with no further context. Thanks, guys 🙂.
+
+
+
+
