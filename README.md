@@ -65,5 +65,9 @@ they didn't hug the edge of the screen whenever the camera was zooming out) and 
 zoom out and, more importantly for our game's purposes, how far it would zoom in. But with that the feature was done.
 
 ### 👟 Two Steps Forwards
-Now it was time to 
+Now it was time to start on the second important feature of the camera: moving around the screen to follow the players. It was one thing
+to keep all players in frame, but if it didn't move to center around the player characters then things would look and feel very strange 
+to players - especially if the two players are on the same side of the stage, as so often happens in a platform fighting game. 
+
+To tackle this, my immediate idea was to 
 
