@@ -74,8 +74,10 @@ This would find the center point between the furthest apart players, keeping the
 After implementing this solution however, I encountered an unexpected issue. My camera screen resizing code was completely broken. After
 commenting it out and testing only my code to move the focal point, I found it was working correctly, but there was a deeper issue. My
 code for resizing the screen had been written with the expectation that the focal point of the screen would always be (0,0). It was
-time to take a step back and do some refactoring
+time to take a step back and do some refactoring.
 
 ### 🔧 Fixing Up Old Mistakes
-
-
+After an embarrassingly long time, I realised I could simply normalise my min and max positions by subtracting the camera's x and y
+coordinates. I still had plenty of fun issues though, such as forgetting to add default values and exploding the cameras position on 
+startup - an issue I only noticed when fixing a different issue caused by setting the camera's position exactly. Instead, the program 
+now lerped towards a target position, creating a much smoother movement.
