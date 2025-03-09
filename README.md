@@ -6,20 +6,20 @@ Iris and Logan for the CMP208 module at abertay university.
 https://www.youtube.com/watch?v=_tTr5jb77O8
 
 ## 🛠 The Development Process
-My most significant contributions to this project were the dynamically moving camera and the audio system. 
+### 🙋‍♂️ Meeting The Team 
+At the start of the process, we had an immediate issue - we had a group of four programmers, none of whom had any sort of training
+in management roles or working in teams. The most experienced in team coordination in our group was Patrick, who had worked with Iris
+before on some game jam projects. Me and Logan joined them for this project, being on friendly terms, and both of us had up to this
+point little experience making full games aside from a first year module (which admittedly left something to be desired). 
 
-### Coding Problems
-The camera was an interesting project because Abertay's skateboard engine had a very barebones camera system built in, so 
-capturing player data and translating that into the desired amount of screen space I wanted to capture on each frame - and 
-locking this camera so that it didnt show anything past the death zones - was a very engaging challenge for me.
+Quickly we realised that to play to our strengths as a team we would benefit from each taking some core system of the game and 
+working on it ourselves, with discussions over the minimal integration where required. Later in development, we would work more 
+closely together as we moved to smaller features than the core systems which required more integration and teamwork. 
 
-The audio manager was a reasonably simple task as it was simply playing the sound effects we wanted when the play functions
-were called. making sure music was played through music channels and sfx through sfx channels to allow for correct overlapping
-was aided by the skateboard engine's functionality.
+### 🏃‍♂️ And So We're Off
+I was given ownership of the camera system for the game - which had to dynamically resize to fit all players on the screen, work for 1-4 
+player characters, and not show space outside of the edge of the playable area. Immediately, for every single member of the group, the 
+first major challenge of this project reared it's head: the skateboard engine.
 
-### Development Challenges
-Learning a new game engine in skateboard engine was a very unique challenge for me, and something I hadn't experienced up to
-this point - especially as skateboard was still under development as we were doing this project. We made sure to report bugs to
-the team working on the engine when any came up, and in some cases editted parts of the backend outselves to make some basic 
-fixes. I feel like this aspect of development almost taught me the most from this whole proect, as adapting to new in house 
-piece of software was a very unique learning experience for me.
+
+
