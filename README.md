@@ -18,8 +18,8 @@ closely together as we moved to smaller features than the core systems which req
 
 ### 🏃‍♂️ And So We're Off
 I was given ownership of the camera system for the game - which had to dynamically resize to fit all players on the screen, work for 1-4 
-player characters, and not show space outside of the edge of the playable area. Immediately, for every single member of the group, the 
-first major challenge of this project reared it's head: the skateboard engine.
+player characters, and not show space outside of the edge of the playable area. However, immediately, for every single member of the group, 
+the first major challenge of this project reared it's head: the skateboard engine.
 
 
 
