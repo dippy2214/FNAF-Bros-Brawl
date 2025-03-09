@@ -3,7 +3,7 @@ This is Fnaf bros brawl, a platform fighter for the PS5 (no code, unfortunately 
 Iris and Logan for the CMP208 module at abertay university.
 
 <a href="https://www.youtube.com/watch?v=_tTr5jb77O8">
-  <img src="https://img.youtube.com/vi/_tTr5jb77O8/maxresdefault.jpg" alt="Watch the video" width="400" height="225">
+  <img src="https://img.youtube.com/vi/_tTr5jb77O8/maxresdefault.jpg" alt="Watch the video" width="800" height="450">
 </a>
 
 https://www.youtube.com/watch?v=_tTr5jb77O8
