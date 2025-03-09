@@ -5,7 +5,7 @@ Iris and Logan for the CMP208 module at abertay university.
 [![Watch the video](https://img.youtube.com/vi/_tTr5jb77O8/maxresdefault.jpg)](https://www.youtube.com/watch?v=_tTr5jb77O8)
 https://www.youtube.com/watch?v=_tTr5jb77O8
 
-## My Contributions and Project Challenges
+## 🛠 The Development Process
 My most significant contributions to this project were the dynamically moving camera and the audio system. 
 
 ### Coding Problems
