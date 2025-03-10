@@ -8,7 +8,7 @@ Iris and Logan for the CMP208 module at abertay university.
 
 https://www.youtube.com/watch?v=_tTr5jb77O8
 
-## 🛠 The Development Process
+## The Development Process 🛠 
 ### 🙋‍♂️ Meeting The Team 
 At the start of the process, we had an immediate issue - we had a group of four programmers, none of whom had any sort of training
 in management roles or working in teams. The most experienced in team coordination in our group was Patrick, who had worked with Iris
