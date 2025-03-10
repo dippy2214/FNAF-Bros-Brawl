@@ -1,5 +1,5 @@
 # FNAF-Bros-Brawl
-This is Fnaf bros brawl, a platform fighter for the PS5 (no code, unfortunately sony takes issue with that) by me, Patrick, 
+This is Fnaf bros brawl, a platform fighter developed for the PS5 (no code, unfortunately sony takes issue with that) by me, Patrick, 
 Iris and Logan for the CMP208 module at abertay university.
 
 <a href="https://www.youtube.com/watch?v=_tTr5jb77O8">
