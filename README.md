@@ -36,7 +36,7 @@ not make the final build.
 Skateboard engine also utilizes an ECS, which at the time none of us had any experience with. Wrapping our heads around this required a
 heated (but not aggressive) discussion with the whole group and module leaders, which admittedly was quite enjoyable (although from the 
 outside it may have looked like we were falling out, this was absolutely not the case for all involved, and we made sure to have a follow
-up conversation afterwards to make sure we were all on the same page). This added to the learning time we all needed, but in the end we 
+up conversation afterwards to ensure we were all on the same page). This added to the learning time we all needed, but in the end we 
 found the ECS to be quite a useful system, and many of these concepts would be applied to later unity projects we made together.
 
 ### 🪀 Getting Into The Swing Of Things
