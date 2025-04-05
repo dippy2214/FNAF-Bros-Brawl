@@ -2,11 +2,10 @@
 This is Fnaf bros brawl, a platform fighter developed for the PS5 (no code, unfortunately sony takes issue with that) by me, Patrick, 
 Iris and Logan for the CMP208 module at abertay university.
 
+## Demo Video ⏯
 <a href="https://www.youtube.com/watch?v=_tTr5jb77O8">
   <img src="https://img.youtube.com/vi/_tTr5jb77O8/maxresdefault.jpg" alt="Watch the video" width="600" height="337">
 </a>
-
-https://www.youtube.com/watch?v=_tTr5jb77O8
 
 ## The Development Process 🛠 
 ### 🙋‍♂️ Meeting The Team 
